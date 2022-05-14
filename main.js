@@ -32,7 +32,7 @@ var synth = window.speechSynthesis;
 speak_data1 = "The first prediction is" + prediction_1;
 speak_data2 = "And the second prediciton is" + prediction_2;
 var utterThis = new SpeechSynthesisUtterance(speak_data1 + speak_data2);
-synth.speak(utterthis);
+synth.speak(utterThis);
 }
 
 function check(){
