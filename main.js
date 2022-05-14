@@ -10,7 +10,7 @@ png_quality : 90
 
 camera = document.getElementById("camera");
 
-Webcam.attach("#camera");
+Webcam.attach('#camera');
 
 function takeSnapshot(){
 Webcam.snap(function (data_uri){
